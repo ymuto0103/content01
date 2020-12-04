@@ -265,6 +265,44 @@ main {
 =====================
 */
 
+/* トップへ戻るボタン */
+
+
+.page-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #00bfff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.page-top::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: translateX(-50%) rotate(-45deg);
+    transition: 0.2s;
+}
+
+.page-top:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+
 
 /* Copyright */
 .footer-copyright {
