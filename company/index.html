@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- ドロワー -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    
+    <script src="../js/script.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>会社概要　｜　江戸堀税理士事務所</title>
+</head>
+<body>
+    <!-- ----------------------------------------------------------- -->
+    <!--                    ヘッダー                                  -->
+    <!-- ----------------------------------------------------------- -->
+    <header>
+        <!-- ロゴ -->
+        <a href="/index.html">
+            <h1><img src="../images/logo.png" alt="header-logo"></h1>
+        </a>
+
+
+        <!-- ヘッダーメニュー（PC,タブレット） -->
+        <div class="header-menue">
+            <ul>
+                <li><a href="/index.html">ホーム</a></li>
+                <li><a href="#">サービス内容</a></li>
+                <li><a href="#">料金</a></li>
+                <li><a href="#">会社概要</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+
+        <!-- ヘッダーメニュー（スマホ） -->
+        <div id="navArea">
+            <nav class="drawer-nav">
+                <div class="drawer-inner">
+                    <ul>
+                        <li><a href="/index.html">ホーム</a></li>
+                        <li><a href="#">サービス内容</a></li>
+                        <li><a href="#">料金</a></li>
+                        <li><a href="#">会社概要</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div id="mask"></div>
+        </div>
+
+
+    </header>
+    <!-- ----------------------------------------------------------- -->
+    <!--                    本文                                     -->
+    <!-- ----------------------------------------------------------- -->
+    <main>
+        <!-- ページタイトル -->
+        <div class="page-title">
+            <h2>会社概要</h2>
+            <div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <ul>
+                    <li><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1" /></span></li>
+                    <li><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/company/"><span itemprop="name">会社概要</span></a><meta itemprop="position" content="2" /></span></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 企業理念 -->
+        <div class="corp-state">
+            <div class="content-title"><h3>企業理念</h3></div>
+            <div class="state-content">
+                <p><span>～ゆたかな社会をめざして～</span><br>
+                    わたしたちは内外の法およびその精神を遵守します<br>
+                    わたしたちはオープンでフェアな企業活動を行います<br>
+                    わたしたちは国際社会から信頼される企業市民をめざします</p>
+            </div>
+        </div>
+
+
+        <!-- 企業情報 -->
+        <div class="corp-info">
+            <div class="content-title"><h3>企業情報</h3></div>
+            <div class="info-content">
+                <ul>
+                    <li><span>名称</span><p>江戸堀税理士事務所</p></li>
+                    <li><span>所在地</span><p>【東京オフィス】<br>〒000-0000<br>東京都千代田区丸の内1丁目<br>TEL:000-0000-0000 <br>
+                    <br>
+                    【大阪オフィス】<br>〒000-0000<br>大阪府大阪市北区梅田3丁目1<br>TEL:000-0000-0000 </p></li>
+                    <li><span>設立</span><p>平成元年1月1日</p></li>
+                    <li><span>代表者</span><p>江戸堀太郎（税理士）</p></li>
+                    <li><span>事業内容</span><p>会計監査・巡回監査、決算業務、税務申告、税務コンサルティング</p></li>
+                    <li><span>資本金</span><p>1,000,000円</p></li>
+                    <li><span>顧問税理士</span><p>江戸堀次郎（元東京税務署署長）</p></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- アクセスマップ -->
+        <div class="access-info">
+            <div class="content-title"><h3>アクセスマップ</h3></div>
+            <h4>東京オフィス</h4>
+            <div class="access-content1">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6481.634640240818!2d139.76112127614763!3d35.68149987077672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf97912d02d%3A0xee1220ee8337117!2z44CSMTAwLTAwMDUg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Li444Gu5YaF77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1606962786057!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <p>〒000-0000<br>東京都千代田区丸の内1丁目<br><span>JR東京駅XX出口より徒歩3分</span></p>
+                
+            </div>
+            <h4>大阪オフィス</h4>
+            <div class="access-content2">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.138242226816!2d135.49393201523228!3d34.70169298043424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d76f6aa1d%3A0xd31ba7241772e812!2z44CSNTMwLTgyMDIg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65qKF55Sw77yT5LiB55uu77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1606963012453!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <p>〒000-0000<br>大阪府大阪市北区梅田3丁目1<br><span>JR梅田駅XX出口より徒歩5分</span></p>
+                
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ----------------------------------------------------------- -->
+    <!--                    フッター                                  -->
+    <!-- ----------------------------------------------------------- -->
+    <footer>
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <div class="copyright-content">
+                <img src="../images/logo_footer.png" alt="copyright">
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</body>
+</html>
